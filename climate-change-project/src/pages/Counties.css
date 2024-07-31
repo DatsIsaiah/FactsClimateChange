@@ -1,0 +1,28 @@
+.counties-container {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .map-container {
+    width: 50%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+  }
+  
+  .info-panel {
+    width: 50%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    overflow-y: auto;
+    height: 100vh;
+  }
+  
+  .county-details {
+    margin-top: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #2c3e50;
+  }
+  

@@ -1,45 +1,19 @@
-/* Reset and Normalize */
+/* Global Styles */
 body, html, #root {
   margin: 0;
   padding: 0;
   min-height: 100%;
-}
-
-/* Global Styles */
-body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #FEFAE0; /* Lemon Chiffon */
-  color: #5F6F52;            /* Dark Olive Green */
-  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  background-color: #F9FAFB; /* Off-White */
+  color: #1F2937; /* Charcoal Gray */
   line-height: 1.6;
 }
 
-/* Code Styling */
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-}
-
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto', sans-serif;
-  color: #5F6F52;
-  margin-top: 0;
-  margin-bottom: 0.5em;
-}
-
-/* Paragraphs */
-p {
-  margin-top: 0;
-  margin-bottom: 1em;
-}
-
-/* Links */
 a {
-  color: #5F6F52;
   text-decoration: none;
+  color: inherit;
 }
 
 a:hover {
-  color: #B99470; /* Light Taupe */
-  text-decoration: underline;
+  color: #34D399; /* Emerald Green */
 }

@@ -1,6 +1,5 @@
-// src/components/NavBar.js
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './NavBar.css';
 
 function NavBar() {
@@ -8,11 +7,11 @@ function NavBar() {
     <header className="navbar">
       <nav>
         <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/counties">Counties</Link></li>
-          <li><Link to="/crops">Crops</Link></li>
-          <li><Link to="/climate-change">Climate Change</Link></li>
-          <li><Link to="/about">About</Link></li>
+          <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>
+          <li><NavLink to="/counties" activeClassName="active">Counties</NavLink></li>
+          <li><NavLink to="/crops" activeClassName="active">Crops</NavLink></li>
+          <li><NavLink to="/climate-change" activeClassName="active">Climate Change</NavLink></li>
+          <li><NavLink to="/about" activeClassName="active">About</NavLink></li>
         </ul>
       </nav>
     </header>

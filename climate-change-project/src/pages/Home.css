@@ -1,0 +1,19 @@
+.home {
+    padding: 20px;
+    background-color: #F9FAFB;
+    color: #1F2937;
+  }
+  
+  .introduction, .highlights {
+    margin-bottom: 30px;
+  }
+  
+  h1, h2 {
+    color: #1F2937;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  

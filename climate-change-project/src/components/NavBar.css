@@ -1,29 +1,33 @@
-/* src/components/NavBar.css */
 .navbar {
-    background-color: #A9B388; /* Misty Moss */
-    padding: 15px 0;
-  }
-  
-  .navbar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .navbar li {
-    margin: 0 15px;
-  }
-  
-  .navbar a {
-    color: whitesmoke; /* Lemon Chiffon */
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.1em;
-  }
-  
-  .navbar a:hover {
-    color: #B99470; /* Light Taupe */
-  }
-  
+  background-color: rgba(31, 41, 55, 0.85); /* Charcoal Gray with transparency */
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.navbar li {
+  margin: 0 20px;
+}
+
+.navbar a {
+  color: #F9FAFB; /* Off-White */
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1em;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: #2563EB; /* Bright Blue */
+}
