@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #D6EFD8;
+  color: #1A5319;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+header, footer {
+  background-color: #80AF81;
+  color: white;
+  padding: 10px;
+}
+
+a {
+  color: #1A5319;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+h1 {
+  color: #1A5319;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+}
