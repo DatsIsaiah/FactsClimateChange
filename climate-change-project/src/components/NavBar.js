@@ -7,13 +7,34 @@ function NavBar() {
 
   useEffect(() => {
     const navbar = document.getElementById('navbar');
-    if (navbar) {
+
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add('navbar-visible');
+      } else {
+        navbar.classList.remove('navbar-visible');
+      }
+    };
+
+    if (location.pathname === '/') {
+      window.addEventListener('scroll', handleScroll);
+      handleScroll(); // Check on initial render
+    } else {
       navbar.classList.add('navbar-visible');
     }
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
   }, [location]);
 
+  useEffect(() => {
+    // Scroll to top when route changes
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
   return (
-    <header id="navbar" className="navbar navbar-visible">
+    <header id="navbar" className="navbar">
       <nav>
         <ul>
           <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>

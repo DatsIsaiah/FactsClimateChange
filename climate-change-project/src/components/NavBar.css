@@ -1,7 +1,6 @@
-/* NavBar.css */
-
+/* Default navbar styles */
 .navbar {
-  position: fixed;
+  position: fixed; /* Fixed at the top */
   top: 0;
   width: 100%;
   background-color: rgba(31, 41, 55, 0.85); /* Dark color with transparency */
@@ -9,10 +8,16 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   z-index: 1000;
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
-  transform: translateY(0); /* Default to visible */
+  transform: translateY(-100%); /* Start hidden */
+  opacity: 0; /* Start transparent */
+}
+
+.navbar-visible {
+  transform: translateY(0); /* Slide down into view */
   opacity: 1; /* Fully opaque */
 }
 
+/* Navbar list and link styles */
 .navbar ul {
   list-style: none;
   display: flex;
