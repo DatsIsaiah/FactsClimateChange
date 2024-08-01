@@ -25,11 +25,17 @@ function Counties() {
     <div className="counties-layout">
       <div className="map-section">
         <MapContainer
-          center={[37.5, -119]}
-          zoom={6}
-          style={{ height: '80vh', width: '100%', backgroundColor: '#f9f9f9' }}
-          maxBounds={[[32, -125], [42, -114]]}
-          minZoom={5}
+          center={[36.7783, -119.4179]} // Centered on California
+          zoom={6.5} // Zoom level to show California clearly
+          style={{ height: 'calc(100vh - 20px)', width: '100%' }}
+          maxBounds={[[32.0, -125.0], [42.0, -114.0]]} // Restricting bounds to California
+          minZoom={6.5} // Prevent zooming out
+          maxZoom={6.5} // Prevent zooming in
+          zoomControl={false} // Disable zoom controls
+          dragging={false} // Disable map dragging
+          scrollWheelZoom={false} // Disable zooming with scroll
+          doubleClickZoom={false} // Disable zooming with double click
+          attributionControl={false} // Hide the attribution text
         >
           <TileLayer
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
