@@ -1,19 +1,95 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+  color: #fff;
+  background-color: #2b2d42; /* Dark blue-gray */
+}
+
 .home {
-    padding: 20px;
-    background-color: #F9FAFB;
-    color: #1F2937;
+  overflow-x: hidden;
+}
+
+.intro-section {
+  height: 100vh;
+  background: url('../../public/farm.webp') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.intro-content {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.intro-content h1 {
+  font-size: 3em;
+  margin: 0 0 10px 0;
+  color: #f77622; /* Warm orange */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.intro-content p {
+  font-size: 1.2em;
+  margin: 0 0 20px 0;
+  color: #f3f4ed; /* Light cream */
+}
+
+.explore-button {
+  background: #f77622; /* Warm orange */
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.explore-button:hover {
+  background: #f3f4ed; /* Light cream */
+  color: #2b2d42; /* Dark blue-gray */
+  transform: scale(1.05);
+}
+
+.content-section {
+  padding: 60px 20px;
+  background-color: #edf2f4; /* Light gray */
+  color: #2b2d42; /* Dark blue-gray */
+  text-align: center;
+}
+
+.content-section h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  color: #f77622; /* Warm orange */
+}
+
+.content-section p {
+  font-size: 1.1em;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .intro-content h1 {
+    font-size: 2em;
   }
-  
-  .introduction, .highlights {
-    margin-bottom: 30px;
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
   }
-  
-  h1, h2 {
-    color: #1F2937;
+
+  .navbar ul li {
+    margin: 10px 0;
   }
-  
-  ul {
-    list-style-type: disc;
-    padding-left: 20px;
-  }
-  
+}

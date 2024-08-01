@@ -4,7 +4,7 @@ import './NavBar.css';
 
 function NavBar() {
   return (
-    <header className="navbar">
+    <header id="navbar" className="navbar">
       <nav>
         <ul>
           <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>

@@ -1,10 +1,21 @@
+/* NavBar.css */
+
 .navbar {
-  background-color: rgba(31, 41, 55, 0.85); /* Charcoal Gray with transparency */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(31, 41, 55, 0.85); /* Dark color with transparency */
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  position: sticky;
-  top: 0;
   z-index: 1000;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  transform: translateY(-100%); /* Hidden above the viewport */
+  opacity: 0; /* Fully transparent */
+}
+
+.navbar-visible {
+  transform: translateY(0); /* Slide down into view */
+  opacity: 1; /* Fully opaque */
 }
 
 .navbar ul {
@@ -29,5 +40,6 @@
 
 .navbar a:hover,
 .navbar a.active {
-  color: #2563EB; /* Bright Blue */
+  color: #F77622; /* Bright Orange */
+  transform: scale(1.1);
 }
