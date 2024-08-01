@@ -2,187 +2,210 @@
   "counties": [
     {
       "name": "Alameda County",
-      "coordinates": [37.6017, -121.7195],
       "crops": ["Almonds", "Grapes"],
       "impacts": "Increased temperatures could reduce grape quality by accelerating ripening and affecting sugar-acid balance. Almonds may face yield reductions due to reduced chill hours and increased evapotranspiration.",
       "economic_risks": "Potential loss of revenue from premium wine grape production; almond yield reductions could impact the local economy significantly.",
-      "adaptation_strategies": ["Implementing shade nets for vineyards", "Investing in heat-tolerant almond varieties"]
+      "adaptation_strategies": ["Implementing shade nets for vineyards", "Investing in heat-tolerant almond varieties"],
+      "lat": 37.6017,
+      "lng": -121.7195
     },
     {
       "name": "Butte County",
-      "coordinates": [39.6404, -121.6934],
       "crops": ["Almonds", "Rice", "Walnuts"],
       "impacts": "Heat stress may cause walnut and almond yield reductions. Rice, being water-intensive, could be impacted by water scarcity.",
       "economic_risks": "Losses in nut production, a major economic driver. Potential decrease in rice output affecting both local and export markets.",
-      "adaptation_strategies": ["Developing drought-resistant rice varieties", "Optimizing irrigation practices"]
+      "adaptation_strategies": ["Developing drought-resistant rice varieties", "Optimizing irrigation practices"],
+      "lat": 39.6636,
+      "lng": -121.5607
     },
     {
       "name": "Fresno County",
-      "coordinates": [36.7468, -119.7726],
       "crops": ["Almonds", "Grapes", "Citrus", "Stone Fruits", "Vegetables"],
       "impacts": "Wide variability in impacts; stone fruits and grapes may face quality issues, while vegetables like tomatoes may experience yield drops.",
       "economic_risks": "High due to the diverse and economically significant crop portfolio. Losses in citrus and stone fruit yields could be substantial.",
-      "adaptation_strategies": ["Diversification of crops", "Adopting water-saving technologies", "Exploring new crop varieties that are more heat-tolerant"]
+      "adaptation_strategies": ["Diversification of crops", "Adopting water-saving technologies", "Exploring new crop varieties that are more heat-tolerant"],
+      "lat": 36.7378,
+      "lng": -119.7871
     },
     {
       "name": "Imperial County",
-      "coordinates": [32.792, -115.5631],
       "crops": ["Asparagus", "Blueberries", "Cantaloupes", "Carrots", "Celery"],
       "impacts": "Extreme heat events could reduce yields and quality, particularly for cool-season crops like celery and carrots.",
       "economic_risks": "Risk of crop failures and reduced marketability due to quality issues.",
-      "adaptation_strategies": ["Utilizing controlled environment agriculture (greenhouses)", "Shifting planting schedules"]
+      "adaptation_strategies": ["Utilizing controlled environment agriculture (greenhouses)", "Shifting planting schedules"],
+      "lat": 33.0111,
+      "lng": -115.4734
     },
     {
       "name": "Kern County",
-      "coordinates": [35.4937, -118.8597],
       "crops": ["Almonds", "Grapes", "Pistachios", "Vegetables"],
       "impacts": "Almonds and pistachios are highly vulnerable to temperature extremes and water shortages.",
       "economic_risks": "High economic impact due to the significance of nut crops in the region.",
-      "adaptation_strategies": ["Increased reliance on groundwater", "Breeding and adopting heat-resistant crop varieties"]
+      "adaptation_strategies": ["Increased reliance on groundwater", "Breeding and adopting heat-resistant crop varieties"],
+      "lat": 35.4936,
+      "lng": -118.8597
     },
     {
       "name": "Kings County",
-      "coordinates": [36.098, -119.8815],
       "crops": ["Almonds", "Cotton", "Grapes", "Tomatoes"],
       "impacts": "High temperatures could reduce cotton yields and quality. Grapes and tomatoes may suffer from sunburn and reduced quality.",
       "economic_risks": "Losses in high-value crops like grapes and almonds.",
-      "adaptation_strategies": ["Implementing precision agriculture techniques", "Diversifying crop rotations"]
+      "adaptation_strategies": ["Implementing precision agriculture techniques", "Diversifying crop rotations"],
+      "lat": 36.0985,
+      "lng": -119.8815
     },
     {
       "name": "Los Angeles County",
-      "coordinates": [34.0522, -118.2437],
       "crops": ["Grapes", "Strawberries"],
       "impacts": "Urban heat islands exacerbate temperature extremes, affecting fruit quality and yield.",
       "economic_risks": "Potential revenue loss in local wine and fresh fruit markets.",
-      "adaptation_strategies": ["Urban agriculture initiatives", "Rooftop gardens", "Microclimate management"]
+      "adaptation_strategies": ["Urban agriculture initiatives", "Rooftop gardens", "Microclimate management"],
+      "lat": 34.0522,
+      "lng": -118.2437
     },
     {
       "name": "Madera County",
-      "coordinates": [37.2519, -119.6963],
       "crops": ["Almonds", "Grapes", "Citrus", "Various Vegetables"],
       "impacts": "Water scarcity and high temperatures are primary concerns, potentially reducing yield and quality across all crops.",
       "economic_risks": "Significant, as the region is a major producer of almonds and grapes.",
-      "adaptation_strategies": ["Water conservation technologies", "Exploring alternative water sources"]
+      "adaptation_strategies": ["Water conservation technologies", "Exploring alternative water sources"],
+      "lat": 37.2519,
+      "lng": -119.6963
     },
     {
       "name": "Merced County",
-      "coordinates": [37.3022, -120.4822],
       "crops": ["Almonds", "Grapes", "Vegetables"],
       "impacts": "Increased risk of frost damage in early spring due to variable temperatures. Heat stress could also affect summer crops.",
       "economic_risks": "Potential revenue loss from high-value crops like almonds.",
-      "adaptation_strategies": ["Frost protection measures", "Adjusting planting dates"]
+      "adaptation_strategies": ["Frost protection measures", "Adjusting planting dates"],
+      "lat": 37.3022,
+      "lng": -120.4829
     },
     {
       "name": "Monterey County",
-      "coordinates": [36.6002, -121.8947],
       "crops": ["Artichokes", "Broccoli", "Lettuce", "Strawberries"],
       "impacts": "Increased temperatures can reduce the quality of cool-season crops like broccoli and lettuce. Artichokes and strawberries are also sensitive to temperature extremes.",
       "economic_risks": "Significant, as Monterey County is a major producer of lettuce and strawberries. Quality degradation due to heat stress may lead to reduced prices and economic losses.",
-      "adaptation_strategies": ["Shifting planting schedules to cooler periods", "Investing in cooler climate crop varieties", "Improving water management practices"]
+      "adaptation_strategies": ["Shifting planting schedules to cooler periods", "Investing in cooler climate crop varieties", "Improving water management practices"],
+      "lat": 36.6002,
+      "lng": -121.8947
     },
     {
       "name": "Napa County",
-      "coordinates": [38.5025, -122.2654],
       "crops": ["Grapes"],
       "impacts": "Warming temperatures can accelerate grape ripening, affecting the balance of sugars and acids. Changes in precipitation patterns could also stress vineyards.",
       "economic_risks": "High due to the premium value of Napa wines. Climate change poses a risk to both the volume and quality of wine produced.",
-      "adaptation_strategies": ["Transitioning to grape varieties more tolerant of warmer temperatures", "Changing vineyard management practices", "Investing in irrigation technology"]
+      "adaptation_strategies": ["Transitioning to grape varieties more tolerant of warmer temperatures", "Changing vineyard management practices", "Investing in irrigation technology"],
+      "lat": 38.5025,
+      "lng": -122.2654
     },
     {
       "name": "Riverside County",
-      "coordinates": [33.9533, -117.3962],
       "crops": ["Grapes", "Citrus"],
       "impacts": "High temperatures and variable precipitation are challenging for crop production. Grapes and citrus are particularly vulnerable to heat stress.",
       "economic_risks": "Considerable, especially for high-value crops like grapes used in wine production and fresh citrus.",
-      "adaptation_strategies": ["Implementing water-efficient irrigation systems", "Selecting drought-tolerant crop varieties", "Adjusting harvest schedules"]
+      "adaptation_strategies": ["Implementing water-efficient irrigation systems", "Selecting drought-tolerant crop varieties", "Adjusting harvest schedules"],
+      "lat": 33.9533,
+      "lng": -117.3961
     },
     {
       "name": "Sacramento County",
-      "coordinates": [38.5816, -121.4944],
       "crops": ["Grapes", "Rice", "Vegetables"],
       "impacts": "Risks from both high temperatures and potential water shortages. Grapes may suffer from heat stress, affecting both quality and yield.",
       "economic_risks": "Substantial due to the diversity and economic significance of crops grown in the county. Reduced water availability could lead to lower yields and higher production costs.",
-      "adaptation_strategies": ["Investing in water-saving technologies", "Exploring alternative water sources", "Developing heat-resistant crop varieties"]
+      "adaptation_strategies": ["Investing in water-saving technologies", "Exploring alternative water sources", "Developing heat-resistant crop varieties"],
+      "lat": 38.5816,
+      "lng": -121.4944
     },
     {
       "name": "San Joaquin County",
-      "coordinates": [37.9535, -121.2908],
       "crops": ["Almonds", "Grapes", "Stone Fruits", "Vegetables"],
       "impacts": "Vulnerable to heatwaves and droughts, which can reduce yields and quality across a range of crops.",
       "economic_risks": "Significant, especially in the almond and wine industries, which are major contributors to the local economy.",
-      "adaptation_strategies": ["Developing heat-tolerant crop varieties", "Improving irrigation infrastructure", "Adopting advanced agricultural practices like precision farming"]
+      "adaptation_strategies": ["Developing heat-tolerant crop varieties", "Improving irrigation infrastructure", "Adopting advanced agricultural practices like precision farming"],
+      "lat": 37.9577,
+      "lng": -121.2908
     },
     {
       "name": "San Luis Obispo County",
-      "coordinates": [35.2828, -120.6596],
       "crops": ["Avocados", "Grapes"],
       "impacts": "Increasing temperatures pose a risk, particularly to avocados and grapes, which are sensitive to heat.",
       "economic_risks": "Significant, especially in the premium wine and avocado markets.",
-      "adaptation_strategies": ["Implementing shade nets", "Optimizing water use through efficient irrigation systems", "Potentially transitioning to more heat-resistant crop varieties"]
+      "adaptation_strategies": ["Implementing shade nets", "Optimizing water use through efficient irrigation systems", "Potentially transitioning to more heat-resistant crop varieties"],
+      "lat": 35.2828,
+      "lng": -120.6596
     },
     {
       "name": "Santa Barbara County",
-      "coordinates": [34.4208, -119.6982],
       "crops": ["Broccoli", "Grapes", "Lettuce", "Strawberries"],
       "impacts": "Increasing temperatures and water scarcity pose risks, particularly to cool-season crops like broccoli and lettuce.",
       "economic_risks": "Significant, especially for high-value crops like grapes and strawberries.",
-      "adaptation_strategies": ["Investing in water conservation technologies", "Exploring new crop varieties", "Shifting cultivation to cooler seasons"]
+      "adaptation_strategies": ["Investing in water conservation technologies", "Exploring new crop varieties", "Shifting cultivation to cooler seasons"],
+      "lat": 34.4208,
+      "lng": -119.6982
     },
     {
       "name": "Santa Clara County",
-      "coordinates": [37.3541, -121.9552],
       "crops": ["Grapes", "Vegetables"],
       "impacts": "Increasing urbanization and rising temperatures are major concerns.",
       "economic_risks": "High, especially where urban expansion threatens agricultural land.",
-      "adaptation_strategies": ["Implementing urban agriculture policies", "Preserving agricultural lands", "Investing in sustainable water management practices"]
+      "adaptation_strategies": ["Implementing urban agriculture policies", "Preserving agricultural lands", "Investing in sustainable water management practices"],
+      "lat": 37.7749,
+      "lng": -122.4194
     },
     {
       "name": "Santa Cruz County",
-      "coordinates": [37.0456, -122.0575],
       "crops": ["Brussels Sprouts", "Lettuce", "Strawberries"],
       "impacts": "Increasing temperatures and water scarcity could impact crop yields and quality.",
       "economic_risks": "Moderate, especially if water shortages lead to reduced irrigation and crop yields.",
-      "adaptation_strategies": ["Water management improvements", "Crop rotation", "Selection of heat-tolerant varieties"]
+      "adaptation_strategies": ["Water management improvements", "Crop rotation", "Selection of heat-tolerant varieties"],
+      "lat": 36.9741,
+      "lng": -122.0308
     },
     {
       "name": "Solano County",
-      "coordinates": [38.3105, -121.9018],
       "crops": ["Grapes", "Walnuts"],
       "impacts": "Heat stress and water scarcity are significant concerns.",
       "economic_risks": "Significant, particularly for the wine and nut industries.",
-      "adaptation_strategies": ["Developing heat-resistant crop varieties", "Improving water use efficiency", "Exploring alternative water sources"]
+      "adaptation_strategies": ["Developing heat-resistant crop varieties", "Improving water use efficiency", "Exploring alternative water sources"],
+      "lat": 38.3105,
+      "lng": -121.9018
     },
     {
       "name": "Sonoma County",
-      "coordinates": [38.501, -122.9255],
       "crops": ["Apples", "Grapes"],
       "impacts": "Warming temperatures can alter grape ripening times, affecting wine quality. Apple production may also be impacted by temperature extremes.",
       "economic_risks": "High, especially if changes in climate conditions lead to reduced quality and yield in wine production.",
-      "adaptation_strategies": ["Investing in climate-resilient grape varieties", "Adjusting vineyard management practices", "Enhancing irrigation systems"]
+      "adaptation_strategies": ["Investing in climate-resilient grape varieties", "Adjusting vineyard management practices", "Enhancing irrigation systems"],
+      "lat": 38.5780,
+      "lng": -122.9888
     },
     {
       "name": "Stanislaus County",
-      "coordinates": [37.563, -120.9876],
       "crops": ["Almonds", "Stone Fruits", "Walnuts"],
       "impacts": "Vulnerable to climate change, particularly in nut and fruit crops.",
       "economic_risks": "High, given the importance of these crops to the local economy.",
-      "adaptation_strategies": ["Developing and adopting drought-resistant crop varieties", "Optimizing irrigation practices", "Exploring alternative water sources"]
+      "adaptation_strategies": ["Developing and adopting drought-resistant crop varieties", "Optimizing irrigation practices", "Exploring alternative water sources"],
+      "lat": 37.5091,
+      "lng": -120.9876
     },
     {
       "name": "Tulare County",
-      "coordinates": [36.1342, -118.3216],
       "crops": ["Almonds", "Citrus", "Grapes", "Pistachios"],
       "impacts": "Significant risks from increasing temperatures and water scarcity.",
       "economic_risks": "Substantial, as Tulare County is a major agricultural hub.",
-      "adaptation_strategies": ["Investing in water-efficient irrigation systems", "Selecting heat-resistant crop varieties", "Exploring new agricultural practices"]
+      "adaptation_strategies": ["Investing in water-efficient irrigation systems", "Selecting heat-resistant crop varieties", "Exploring new agricultural practices"],
+      "lat": 36.2163,
+      "lng": -119.3453
     },
     {
       "name": "Ventura County",
-      "coordinates": [34.2746, -119.229],
       "crops": ["Avocados", "Strawberries"],
       "impacts": "Increasing temperatures and potential water shortages pose significant challenges.",
       "economic_risks": "Significant, as Ventura County is a leading producer of avocados and strawberries.",
-      "adaptation_strategies": ["Implementing advanced irrigation techniques", "Using shade nets", "Exploring the cultivation of more heat-tolerant varieties"]
+      "adaptation_strategies": ["Implementing advanced irrigation techniques", "Using shade nets", "Exploring the cultivation of more heat-tolerant varieties"],
+      "lat": 34.3705,
+      "lng": -119.1391
     }
   ]
 }
