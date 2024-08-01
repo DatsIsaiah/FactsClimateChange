@@ -4,12 +4,13 @@ body, html {
   height: 100%;
   font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
-  color: #fff;
-  background-color: #2b2d42; /* Dark blue-gray */
+  color: #2b2d42; /* Dark blue-gray for text */
+  background-color: #edf2f4; /* Light gray for the background */
 }
 
 .home {
   overflow-x: hidden;
+  background-color: #edf2f4;
 }
 
 .intro-section {
@@ -28,6 +29,8 @@ body, html {
   padding: 40px;
   border-radius: 10px;
   text-align: center;
+  max-width: 800px;
+  margin: auto; /* Center content */
 }
 
 .intro-content h1 {
@@ -60,23 +63,47 @@ body, html {
 }
 
 .content-section {
-  padding: 60px 20px;
+  padding: 40px 20px;
   background-color: #edf2f4; /* Light gray */
   color: #2b2d42; /* Dark blue-gray */
   text-align: center;
+  max-width: 800px; /* Set a max-width */
+  margin: auto; /* Center content */
 }
 
 .content-section h2 {
   margin-top: 0;
-  margin-bottom: 20px;
-  font-size: 2.5em;
+  margin-bottom: 15px; /* Reduced margin-bottom */
+  font-size: 2em; /* Slightly smaller font size */
   color: #f77622; /* Warm orange */
 }
 
 .content-section p {
-  font-size: 1.1em;
-  line-height: 1.8;
-  margin-bottom: 20px;
+  font-size: 1em; /* Slightly smaller font size */
+  line-height: 1.6; /* Reduced line-height */
+  margin-bottom: 15px; /* Reduced margin-bottom */
+}
+
+.content-section ul {
+  list-style-type: none; /* Remove default bullets */
+  padding-left: 0; /* Remove padding */
+  text-align: left; /* Align text to the left */
+}
+
+.content-section ul li {
+  position: relative;
+  padding-left: 20px; /* Add space for custom bullets */
+  margin-bottom: 10px; /* Reduce spacing between list items */
+}
+
+.content-section ul li::before {
+  content: '•'; /* Custom bullet */
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #f77622; /* Bullet color matching theme */
+  font-size: 1.2em;
+  line-height: 1.6; /* Align with text */
 }
 
 @media (max-width: 768px) {
@@ -91,5 +118,9 @@ body, html {
 
   .navbar ul li {
     margin: 10px 0;
+  }
+
+  .content-section {
+    padding: 20px; /* Adjust padding for smaller screens */
   }
 }
