@@ -1,57 +1,57 @@
 body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    font-family: 'Roboto', sans-serif; /* Modern font */
-    background-color: #f4f4f4; /* Light grey background for a clean look */
-  }
-  
-  .counties-layout {
-    display: flex;
-    height: 100vh;
-    margin: 0; /* Ensure no margins */
-  }
-  
-  .map-section {
-    flex: 1; /* Make map take available space */
-    margin: 20px;
-    border: 5px solid #333; /* Black border for emphasis */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    overflow: hidden;
-  }
-  
-  .info-section {
-    width: 55%; /* Balance with map section */
-    padding: 20px;
-    overflow-y: auto;
-    background-color: #ffffff; /* Contrast with light grey */
-    border-left: 1px solid #ccc;
-    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  h1, h2 {
-    color: #2c3e50;
-    margin: 0 0 10px 0;
-  }
-  
-  p {
-    line-height: 1.6;
-    color: #666;
-  }
-  
-  .leaflet-container {
-    height: 100%;
-    width: 100%;
-  }
-  
-  .leaflet-popup-content-wrapper, .leaflet-popup-tip {
-    background-color: #333;
-    color: #fff;
-  }
-  
-  .leaflet-popup-content-wrapper {
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-  }
-  
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; /* Modern font */
+  background-color: #f4f4f4; /* Light grey background for a clean look */
+}
+
+.counties-layout {
+  display: flex;
+  margin-top: 60px; /* Space for the fixed navbar */
+  margin-left: 20px; /* Space from the left edge */
+  padding: 20px; /* Padding inside the container */
+}
+
+.map-section {
+  flex: 1; /* Make map take available space */
+  margin-right: 20px; /* Margin to separate from the info-section */
+  border: 5px solid #333; /* Black border for emphasis */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  overflow: hidden;
+}
+
+.info-section {
+  flex: 1; /* Allow the info section to take remaining space */
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #ffffff; /* Contrast with light grey */
+  border-left: 1px solid #ccc;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #2c3e50;
+  margin: 0 0 10px 0;
+}
+
+p {
+  line-height: 1.6;
+  color: #666;
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  background-color: #333;
+  color: #fff;
+}
+
+.leaflet-popup-content-wrapper {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}

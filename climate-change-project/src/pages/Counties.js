@@ -27,7 +27,7 @@ function Counties() {
         <MapContainer
           center={[36.7783, -119.4179]} // Centered on California
           zoom={6.5} // Zoom level to show California clearly
-          style={{ height: 'calc(100vh - 20px)', width: '100%' }}
+          style={{ height: 'calc(100vh - 100px)', width: '100%' }} // Adjust height for navbar
           maxBounds={[[32.0, -125.0], [42.0, -114.0]]} // Restricting bounds to California
           minZoom={6.5} // Prevent zooming out
           maxZoom={6.5} // Prevent zooming in

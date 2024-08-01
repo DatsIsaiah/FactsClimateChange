@@ -1,10 +1,19 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { NavLink, useLocation } from 'react-router-dom';
 import './NavBar.css';
 
 function NavBar() {
+  const location = useLocation();
+
+  useEffect(() => {
+    const navbar = document.getElementById('navbar');
+    if (navbar) {
+      navbar.classList.add('navbar-visible');
+    }
+  }, [location]);
+
   return (
-    <header id="navbar" className="navbar">
+    <header id="navbar" className="navbar navbar-visible">
       <nav>
         <ul>
           <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>
