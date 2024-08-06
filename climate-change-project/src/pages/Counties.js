@@ -14,6 +14,7 @@ const defaultIcon = new L.Icon({
   shadowSize: [41, 41]
 });
 
+// Dynamically import all PNG images from the Climate_Change_Projections and County_Crop_Charts directories
 const climateChangeImages = require.context('../data/Climate_Change_Projections', false, /\.png$/);
 const cropChartsImages = require.context('../data/County_Crop_Charts', false, /\.png$/);
 
@@ -24,13 +25,20 @@ function Counties() {
     setSelectedCounty(county);
   };
 
+  // Function to get images for the selected county
   const getCountyImages = (countyName) => {
+    // Remove "County" from the county name
     const baseCountyName = countyName.replace(' County', '');
     const formattedClimateChangeName = `${baseCountyName}_climate_change_projections`;
     const formattedCropChartName = `${baseCountyName}_county_crops`;
+    console.log(`Formatted climate change name: ${formattedClimateChangeName}`);
+    console.log(`Formatted crop chart name: ${formattedCropChartName}`);
 
     const climateChangeImageKey = climateChangeImages.keys().find(key => key.includes(formattedClimateChangeName));
     const cropChartImageKey = cropChartsImages.keys().find(key => key.includes(formattedCropChartName));
+
+    console.log(`Climate change image key: ${climateChangeImageKey}`);
+    console.log(`Crop chart image key: ${cropChartImageKey}`);
 
     return {
       climateChangeImage: climateChangeImageKey ? climateChangeImages(climateChangeImageKey) : null,
@@ -38,18 +46,22 @@ function Counties() {
     };
   };
 
+  // Log all available image keys for debugging
+  console.log('Available Climate Change Images:', climateChangeImages.keys());
+  console.log('Available Crop Charts Images:', cropChartsImages.keys());
+
   return (
     <div className="counties-layout">
       <div className="map-section">
         <MapContainer
-          center={[37.7749, -119.4194]} // Adjusted center for better focus on California
-          zoom={6.5}
-          style={{ height: '100%', width: '100%' }}
-          maxBounds={[[32.0, -125.0], [42.0, -114.0]]}
-          minZoom={6.5}
-          maxZoom={6.5}
-          zoomControl={false}
-          dragging={false}
+          center={[36.7783, -119.4179]} // Centered on California do not alter
+          zoom={6.5} // Zoom level to show California clearly
+          style={{ height: 'calc(100vh - 100px)', width: '100%' }} // Adjust height for navbar don't change
+          maxBounds={[[32.0, -125.0], [42.0, -114.0]]} // Restricting bounds to California
+          minZoom={6.5} // Prevent zooming out
+          maxZoom={6.5} // Prevent zooming in
+          zoomControl={false} // Disable zoom controls
+          dragging={false} // Disable map dragging
           scrollWheelZoom={false} 
           doubleClickZoom={false}
           attributionControl={false} 
@@ -80,9 +92,9 @@ function Counties() {
             <p><strong>Impacts:</strong> {selectedCounty.impacts}</p>
             <p><strong>Economic Risks:</strong> {selectedCounty.economic_risks}</p>
             <p><strong>Adaptation Strategies:</strong> {selectedCounty.adaptation_strategies.join(', ')}</p>
-            <h3>Climate Change Projections for {selectedCounty.name}</h3>
             {(() => {
               const images = getCountyImages(selectedCounty.name);
+              console.log('Images:', images);
               return (
                 <>
                   {images.climateChangeImage && <img src={images.climateChangeImage} alt={`${selectedCounty.name} Climate Change Projection`} />}
