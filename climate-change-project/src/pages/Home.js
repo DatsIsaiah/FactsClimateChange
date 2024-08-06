@@ -1,6 +1,6 @@
 // src/pages/Home.js
 import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { Link } from 'react-router-dom';
 import NavBar from '../components/NavBar';
 import './Home.css';
 
