@@ -1,0 +1,274 @@
+[
+  {
+    "name": "Almonds",
+    "annualIncome": 3.52,
+    "tempRange": "55-80",
+    "geographicDistribution": "Central Valley",
+    "counties": "Tulare, Kings, Fresno, San Joaquin, Stanislaus, Merced, Kern, Butte",
+    "image": "almonds.png"
+  },
+  {
+    "name": "Apples",
+    "annualIncome": 0.052,
+    "tempRange": "30-70",
+    "geographicDistribution": "North Coast",
+    "counties": "Napa, Sonoma, San Joaquin, Fresno",
+    "image": "apples.png"
+  },
+  {
+    "name": "Apricots",
+    "annualIncome": 0.024,
+    "tempRange": "32-75",
+    "geographicDistribution": "San Joaquin Valley",
+    "counties": "Fresno, Tulare, Merced, Kern",
+    "image": "apricots.png"
+  },
+  {
+    "name": "Artichokes",
+    "annualIncome": 0.045,
+    "tempRange": "45-75",
+    "geographicDistribution": "Central Coast",
+    "counties": "Stanislaus, Monterey, Kern, Fresno",
+    "image": "artichokes.png"
+  },
+  {
+    "name": "Asparagus",
+    "annualIncome": 0.015,
+    "tempRange": "50-85",
+    "geographicDistribution": "Delta Region",
+    "counties": "Monterey, San Joaquin, Fresno, Imperial",
+    "image": "asparagus.png"
+  },
+  {
+    "name": "Avocados",
+    "annualIncome": 0.488,
+    "tempRange": "32-100",
+    "geographicDistribution": "Central Valley",
+    "counties": "Monterey, San Luis Obispo, Ventura, Santa Barbara",
+    "image": "avocados.png"
+  },
+  {
+    "name": "Blueberries",
+    "annualIncome": 0.361,
+    "tempRange": "45-85",
+    "geographicDistribution": "San Joaquin Valley",
+    "counties": "Riverside, Merced, Kern, Imperial",
+    "image": "blueberries.png"
+  },
+  {
+    "name": "Broccoli",
+    "annualIncome": 1.107,
+    "tempRange": "55-75",
+    "geographicDistribution": "Central Valley",
+    "counties": "Monterey, San Luis Obispo, Santa Barbara, Santa Cruz",
+    "image": "broccoli.png"
+  },
+  {
+    "name": "Brussels sprouts",
+    "annualIncome": 0.466,
+    "tempRange": "45-75",
+    "geographicDistribution": "Central Coast",
+    "counties": "Monterey, Santa Cruz, Ventura",
+    "image": "brussels_sprouts.png"
+  },
+  {
+    "name": "Cantaloupes",
+    "annualIncome": 0.205,
+    "tempRange": "60-90",
+    "geographicDistribution": "Central Valley",
+    "counties": "Monterey, Merced, Kern, Imperial",
+    "image": "cantaloupes.png"
+  },
+  {
+    "name": "Carrots",
+    "annualIncome": 0.31,
+    "tempRange": "45-85",
+    "geographicDistribution": "Central Valley",
+    "counties": "Monterey, Kern, Fresno, Imperial",
+    "image": "carrots.png"
+  },
+  {
+    "name": "Cauliflower",
+    "annualIncome": 3.148,
+    "tempRange": "60-70",
+    "geographicDistribution": "Central Coast",
+    "counties": "Monterey, Santa Barbara, Imperial",
+    "image": "cauliflower.png"
+  },
+  {
+    "name": "Celery",
+    "annualIncome": 2.685,
+    "tempRange": "60-80",
+    "geographicDistribution": "Central Coast",
+    "counties": "Monterey, Ventura, Santa Barbara",
+    "image": "celery.png"
+  },
+  {
+    "name": "Cherries",
+    "annualIncome": 0.206,
+    "tempRange": "60-90",
+    "geographicDistribution": "Central Coast",
+    "counties": "Ventura, Santa Barbara, Merced, San Joaquin, Santa Clara",
+    "image": "cherries.png"
+  },
+  {
+    "name": "Corn",
+    "annualIncome": 5.535,
+    "tempRange": "50-90",
+    "geographicDistribution": "Napa Valley",
+    "counties": "Napa, Sonoma, Fresno, Sacramento",
+    "image": "corn.png"
+  },
+  {
+    "name": "Cotton",
+    "annualIncome": 0.073,
+    "tempRange": "60-85",
+    "geographicDistribution": "San Joaquin Valley",
+    "counties": "Kings, Fresno, Madera, Merced, Kern",
+    "image": "cotton.png"
+  },
+  {
+    "name": "Garlic",
+    "annualIncome": 1.458,
+    "tempRange": "70-85",
+    "geographicDistribution": "Central Valley",
+    "counties": "Fresno, San Joaquin, Kern",
+    "image": "garlic.png"
+  },
+  {
+    "name": "Grapes",
+    "annualIncome": 10.4,
+    "tempRange": "40-80",
+    "geographicDistribution": "Statewide",
+    "counties": "Tulare, Alameda, Fresno, Statewide, Kern",
+    "image": "grapes.png"
+  },
+  {
+    "name": "Lemons",
+    "annualIncome": 0.063,
+    "tempRange": "40-85",
+    "geographicDistribution": "Statewide",
+    "counties": "Statewide, Ventura",
+    "image": "lemons.png"
+  },
+  {
+    "name": "Lettuce",
+    "annualIncome": 0.415,
+    "tempRange": "50-85",
+    "geographicDistribution": "Central Valley",
+    "counties": "Monterey, Santa Barbara, Santa Cruz, San Joaquin, Stanislaus, San Luis Obispo, Merced",
+    "image": "lettuce.png"
+  },
+  {
+    "name": "Onions",
+    "annualIncome": 0.414,
+    "tempRange": "50-85",
+    "geographicDistribution": "San Joaquin Valley",
+    "counties": "Madera, Kern, Merced, Fresno",
+    "image": "onions.png"
+  },
+  {
+    "name": "Oranges",
+    "annualIncome": 1.861,
+    "tempRange": "60-90",
+    "geographicDistribution": "San Joaquin Valley",
+    "counties": "Fresno, Madera, Tulare, Kern",
+    "image": "oranges.png"
+  },
+  {
+    "name": "Peaches",
+    "annualIncome": 0.415,
+    "tempRange": "50-85",
+    "geographicDistribution": "San Joaquin Valley",
+    "counties": "Stanislaus, Madera, Kern, Fresno",
+    "image": "peaches.png"
+  },
+  {
+    "name": "Pears",
+    "annualIncome": 0.089,
+    "tempRange": "55-85",
+    "geographicDistribution": "San Joaquin Valley",
+    "counties": "Fresno, Madera, Kern, Sacramento",
+    "image": "pears.png"
+  },
+  {
+    "name": "Pistachios",
+    "annualIncome": 0.415,
+    "tempRange": "45-85",
+    "geographicDistribution": "San Joaquin Valley",
+    "counties": "Tulare, Kings, Fresno, Madera, Merced, Kern",
+    "image": "pistachios.png"
+  },
+  {
+    "name": "Plums",
+    "annualIncome": 1.37,
+    "tempRange": "50-90",
+    "geographicDistribution": "San Joaquin Valley",
+    "counties": "Fresno, Madera, Kern, Butte",
+    "image": "plums.png"
+  },
+  {
+    "name": "Potatoes",
+    "annualIncome": 0.415,
+    "tempRange": "55-85",
+    "geographicDistribution": "San Joaquin Valley",
+    "counties": "Kern, Fresno, Madera",
+    "image": "potatoes.png"
+  },
+  {
+    "name": "Raspberries",
+    "annualIncome": 0.55,
+    "tempRange": "55-85",
+    "geographicDistribution": "San Joaquin Valley",
+    "counties": "Ventura, Madera, Santa Cruz, Fresno, Kern",
+    "image": "raspberries.png"
+  },
+  {
+    "name": "Rice",
+    "annualIncome": 0.09,
+    "tempRange": "45-85",
+    "geographicDistribution": "San Joaquin Valley",
+    "counties": "Madera, Kern, Fresno, Butte, Sacramento",
+    "image": "rice.png"
+  },
+  {
+    "name": "Spinach",
+    "annualIncome": 0.55,
+    "tempRange": "55-85",
+    "geographicDistribution": "San Joaquin Valley",
+    "counties": "Monterey, Madera, Kern, Fresno",
+    "image": "spinach.png"
+  },
+  {
+    "name": "Strawberries",
+    "annualIncome": 0.09,
+    "tempRange": "45-85",
+    "geographicDistribution": "San Joaquin Valley",
+    "counties": "Monterey, Santa Barbara, Santa Cruz, Los Angeles, Fresno, San Luis Obispo, Madera, Ventura, Kern",
+    "image": "strawberries.png"
+  },
+  {
+    "name": "Sweet Potatoes",
+    "annualIncome": 0.363,
+    "tempRange": "50-85",
+    "geographicDistribution": "San Joaquin Valley",
+    "counties": "Fresno, Madera, Merced, Kern",
+    "image": "sweet_potatoes.png"
+  },
+  {
+    "name": "Tomatoes",
+    "annualIncome": 1.165,
+    "tempRange": "70-85",
+    "geographicDistribution": "San Joaquin Valley",
+    "counties": "Kings, Fresno, Sacramento, Solano, Madera, San Joaquin, Kern",
+    "image": "tomatoes.png"
+  },
+  {
+    "name": "Walnuts",
+    "annualIncome": 0.473,
+    "tempRange": "55-85",
+    "geographicDistribution": "San Joaquin Valley",
+    "counties": "Merced, Fresno, Sacramento, Solano, Stanislaus, Madera, San Joaquin, Kern, Butte",
+    "image": "walnuts.png"
+  }
+]

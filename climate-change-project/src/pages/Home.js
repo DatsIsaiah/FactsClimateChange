@@ -72,7 +72,7 @@ function Home() {
 
       <section id="how-to-use" className="content-section">
         <h2>How to Use Our Platform</h2>
-        <p><strong>Search by County:</strong> Enter your county to see detailed climate and agricultural data specific to your area.</p>
+        <p><strong>Search by County:</strong> Enter your county to see detailed climate and agricultural data specific to your area. Disclaimer: Ventura and Tulare are unable to display their crop charts as there is an error and not enough time to fix.</p>
         <Link to="/counties" className="explore-button">Search by County</Link> {/* Link to Counties page */}
         <p><strong>Search by Crop:</strong> Look up specific crops to understand their growing conditions and how they are affected by climate change in different regions.</p>
         <Link to="/crops" className="explore-button">Search by Crop</Link> {/* Link to Crops page */}
