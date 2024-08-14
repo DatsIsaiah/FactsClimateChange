@@ -4,14 +4,7 @@ import NavBar from '../components/NavBar';
 import './Home.css';
 
 function Home() {
-  const handleButtonClick = () => {
-    const aboutSection = document.getElementById('about');
-    if (aboutSection) {
-      aboutSection.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
-
+  
   return (
     <div className="home">
       <NavBar /> {/* Navbar will be initially hidden and become visible on scroll */}
