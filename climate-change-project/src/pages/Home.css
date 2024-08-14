@@ -53,7 +53,11 @@ body, html {
   border-radius: 5px;
   text-decoration: none;
   font-size: 1.2em;
-  transition: background 0.3s ease, transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  border: none;
+  outline: none;
 }
 
 .explore-button:hover {
@@ -61,6 +65,12 @@ body, html {
   color: #2b2d42; /* Dark blue-gray */
   transform: scale(1.05);
 }
+
+.explore-button:active {
+  transform: translateY(1px); /* Slightly move down on click */
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
 
 .content-section {
   padding: 40px 20px;

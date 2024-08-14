@@ -1,29 +1,20 @@
-// src/pages/Home.js
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import NavBar from '../components/NavBar';
 import './Home.css';
 
 function Home() {
-  useEffect(() => {
-    const handleScroll = () => {
-      const navbar = document.getElementById('navbar');
-      if (navbar) {
-        if (window.scrollY > window.innerHeight - 50) {
-          navbar.classList.add('navbar-visible');
-        } else {
-          navbar.classList.remove('navbar-visible');
-        }
-      }
-    };
+  const handleButtonClick = () => {
+    const aboutSection = document.getElementById('about');
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   return (
     <div className="home">
-      <NavBar /> {/* Ensure NavBar is included only once */}
+      <NavBar /> {/* Navbar will be initially hidden and become visible on scroll */}
 
       <section id="home" className="intro-section">
         <div className="intro-content">
@@ -39,6 +30,7 @@ function Home() {
         <p>Hello! I'm Isaiah Ramos, a dedicated researcher at the University of California, working with FACTS to explore the effects of climate change on California's agricultural sector. My research focuses on understanding how changing weather patterns impact key crops like almonds, grapes, strawberries, and lettuce, and what this means for the future of farming in the state.</p>
       </section>
 
+      {/* Additional sections of your page */}
       <section id="climate-change" className="content-section">
         <h2>Understanding Climate Change</h2>
         <p>Climate change refers to long-term shifts in temperatures and weather patterns, primarily due to human activities like burning fossil fuels, deforestation, and industrial processes. These actions increase greenhouse gases in the atmosphere, leading to global warming and altered weather patterns. In California, this manifests as more frequent heatwaves, changing precipitation patterns, and other extreme weather events.</p>
@@ -54,6 +46,7 @@ function Home() {
         </ul>
       </section>
 
+      {/* More sections as needed */}
       <section id="impact" className="content-section">
         <h2>Impact of Climate Change on Crops</h2>
         <p>Climate change poses significant threats to agriculture in California:</p>
@@ -73,9 +66,9 @@ function Home() {
       <section id="how-to-use" className="content-section">
         <h2>How to Use Our Platform</h2>
         <p><strong>Search by County:</strong> Enter your county to see detailed climate and agricultural data specific to your area. Disclaimer: Ventura and Tulare are unable to display their crop charts as there is an error and not enough time to fix.</p>
-        <Link to="/counties" className="explore-button">Search by County</Link> {/* Link to Counties page */}
+        <Link to="/counties" className="explore-button">Search by County</Link>
         <p><strong>Search by Crop:</strong> Look up specific crops to understand their growing conditions and how they are affected by climate change in different regions.</p>
-        <Link to="/crops" className="explore-button">Search by Crop</Link> {/* Link to Crops page */}
+        <Link to="/crops" className="explore-button">Search by Crop</Link>
       </section>
     </div>
   );
